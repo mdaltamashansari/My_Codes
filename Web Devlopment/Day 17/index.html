@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <style>
+        /* element selector  */
+        /* div{
+            background-color: red;
+        } */
+    .red{
+        background-color: red;
+    }
+    #green{
+        background-color: green;
+    }
+    /* child selector */
+    div > p {
+        color: blue;
+        background-color: brown;
+    }
+    /* universal selector */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* pseduo selector */
+    a:visited{
+        color:yellow;
+    }
+    a:link{
+        color: green;
+    }
+    a:active{
+        background-color: red;
+    }
+    a:hover{
+        background-color: pink;
+    }
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am div
+        <p>i am para inside div</p>
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.Facebook.com">Go to Facebook</a>
+</body>
+</html>

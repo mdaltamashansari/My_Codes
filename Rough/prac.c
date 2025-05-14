@@ -3,6 +3,7 @@ int main()
 {
     int arr1[100], n,ctr=0;
     int i, j, k;
+	
        printf("\n\nPrint all unique elements of an array:\n");
        printf("------------------------------------------\n");	
        printf("Input the number of elements to be stored in the array: ");

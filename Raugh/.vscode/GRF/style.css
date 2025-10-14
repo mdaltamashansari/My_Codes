@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul button {
+  list-style: none;
+  height: auto;
+  padding: 26px;
+  background-color: peru;
+}
+ul li{
+ padding: 25px;
+ list-style: none;
+}
+ul {
+  display: flex;
+}
+nav {
+  background-color: peru;
+  color: aliceblue;
+}
+.box1{
+  background-color: lightskyblue;
+  height: 250px;
+}
+.box2{
+  background-color: aquamarine;
+  height:300px;
+}

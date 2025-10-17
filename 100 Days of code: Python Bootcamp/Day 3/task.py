@@ -30,3 +30,9 @@ if height >= 120:
       print(f"Your final bill is ${bill}.")  #print(f"Your final bill is ${bill:.3f}")  # 3 decimal places
 else:
       print("Sorry, you have to grow taller before you can ride. m") 
+      
+      
+# logical opertors 
+# and -> True if both conditions are True
+# not -> Inverts the Boolean value
+# or-> or operator basics A or B is True if at least one of A or B is True.

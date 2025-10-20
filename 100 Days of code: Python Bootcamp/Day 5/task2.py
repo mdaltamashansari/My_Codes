@@ -1,3 +1,4 @@
+#Altamash Codes
 student_scores = [97, 65, 88, 12, 45, 78, 99, 100, 54, 23, 67, 34, 89, 90, 91, 92, 93, 94, 95, 96]
 
 for score in student_scores:
@@ -15,8 +16,7 @@ for number in range(1, 101):
    total += number
 print(total)
 
-
-# print 1 to 100 
+# print 1 to 100 and replace multiples of 3 with Fizz, multiples of 5 with Buzz and multiples of both with FizzBuzz
 for number in range(1, 101):
  if number % 3 == 0 and number % 5 == 0:
       print("FizzBuzz")

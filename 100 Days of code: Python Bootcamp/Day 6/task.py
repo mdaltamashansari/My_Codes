@@ -7,7 +7,7 @@ print(char_lens)
       # do this 
       # then do this 
       # finally do this
-      
+     
 # #call function
 # my_function()
 # identention      
@@ -16,3 +16,4 @@ print(char_lens)
 #     turn_left()
 #     move()
 #     use space or tab for indentation
+# space is more preferred

@@ -1,1 +1,0 @@
-# Hangman game by altamash

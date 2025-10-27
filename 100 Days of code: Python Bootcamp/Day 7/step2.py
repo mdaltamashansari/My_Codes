@@ -1,16 +1,16 @@
 import random
-word_list = ["Goat", "wolf", "lion"]
+word_list = ["Goat", "wolf", "lion", "tiger"]
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
-word_length = len(chosen_word)
-
 placeholder = ""
-for postion in range(word_length):
-    placeholder += "_"
+word_length = len(chosen_word)
+for position in range(word_length):
+    placeholder += "_" #placeholder = placeholder + "_"
 print(placeholder)
 
-guess = input("Guess a letter: ").lower()
+guess = input("Guess a letter: ").lower() 
+#lowercase to standardize input
 
 display = ""
 for letter in chosen_word:
@@ -18,4 +18,4 @@ for letter in chosen_word:
             display += letter
       else:
             display += "_"
-            print(display)
+print(display)

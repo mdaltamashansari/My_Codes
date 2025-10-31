@@ -92,5 +92,5 @@ while not gameover:
                 print("You lose.")
       if "_" not in display:
             gameover = True
-            print("You win!")       
+            print("You win!")    
       print (stages[lives])

@@ -9,7 +9,7 @@ nr_letters= int(input("How many letters would you like in your password? "))
 nr_numbers = int(input("How many numbers would you like in your password? "))
 nr_symbols = int(input("How many symbols would you like in your password? "))
 
-# easy level
+# easy-level
 # password = ""
 # #  random_char = random.choice(letters)
 # for char in range(1, nr_letters + 1): #range not includes the upper limit  so we add 1

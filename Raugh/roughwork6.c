@@ -22,7 +22,6 @@ int main()
     ptr = fopen("emp.txt","w");
     fprintf(ptr, "%s , %d\n", name1, salary1);
     fprintf(ptr, "%s , %d\n", name2, salary2);
-    fclose;
-
+    fclose;
     return 0;
 }
